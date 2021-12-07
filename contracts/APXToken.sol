@@ -202,7 +202,7 @@ contract APXToken is Context, IBEP20, Ownable {
                 emit Transfer(sender, address(0), burnAmount);
             }
             if(daoFee > 0){
-                _balances[daoAddress].add(daoFee);
+                _balances[daoAddress] = _balances[daoAddress].add(daoFee);
                 emit Transfer(sender, daoAddress, daoFee);
             }
         }
