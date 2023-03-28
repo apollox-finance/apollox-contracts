@@ -1,5 +1,5 @@
-# defi-protocol
-decentralized protocol for a derivatives exchange
+# Defi-protocol
+decentralized protocol for apollox derivatives exchange\
 Apollox Contracts
 docs at https://apollox-finance.gitbook.io/apollox-finance/welcome/apx-token-and-contracts
 
